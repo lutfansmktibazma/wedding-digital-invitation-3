@@ -44,7 +44,7 @@ body{background:var(--night);font-family:var(--serif);font-weight:600;color:var(
 .ttl .sc{font-size:17cqw}
 .ttl .lb{letter-spacing:.34em;margin-top:-1cqw}
 #open{pointer-events:auto;position:absolute;left:50%;top:var(--bt,89%);transform:translateX(-50%);white-space:nowrap;font:600 3.3cqw var(--serif);letter-spacing:.18em;text-transform:uppercase;color:var(--ink);background:rgba(255,248,238,.55);border:1px solid var(--ink);border-radius:99px;padding:2.2cqw 6cqw;cursor:pointer}
-#snd{position:absolute;top:calc(3% + env(safe-area-inset-top,0px));right:4cqw;z-index:7;width:9.5cqw;height:9.5cqw;border-radius:50%;border:1px solid rgba(255,248,238,.75);background:rgba(28,14,8,.5);color:var(--light);display:grid;place-items:center;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .8s;padding:0}
+#snd{position:absolute;bottom:calc(3% + env(safe-area-inset-bottom,0px));right:4cqw;z-index:7;width:9.5cqw;height:9.5cqw;border-radius:50%;border:1px solid rgba(255,248,238,.75);background:rgba(28,14,8,.5);color:var(--light);display:grid;place-items:center;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .8s;padding:0}
 #snd.on{opacity:.9;pointer-events:auto}
 #snd svg{width:50%;height:50%;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .hint{position:absolute;left:0;right:0;bottom:calc(2.5% + env(safe-area-inset-bottom,0px));z-index:6;text-align:center;font-size:2.7cqw;letter-spacing:.24em;text-transform:uppercase;color:var(--light);text-shadow:0 1px 6px rgba(20,8,2,.85);opacity:0;pointer-events:none;animation:nudge 1.8s ease-in-out infinite}
